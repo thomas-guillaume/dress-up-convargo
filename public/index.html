@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="style.css" />
     <title>CSS/HTML Workshop with Convargo</title>
   </head>
+  <header>
+    <h1>Price</h1>
+  </header>
   <body>
     <div id="trucker">
+      Trucker :
       <input class="name" type="text" placeholder="Trucker name"/>
       <input class="price-by-km" type="number" placeholder="Price by km"/>
       <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
     </div>
     <div id="shipper">
+      Shipper :
       <input class="name" type="text" placeholder="Shipper name"/>
       <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="volume" type="number" placeholder="Volume in m3"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
+      <input class="volume" type="number" placeholder="Volume in m3"/><br><br>
+      <input class="option" type="checkbox" placeholder="Deductible option"/>Deductible Option
     </div>
     <button id="compute">Compute</button>
     <div id="actors"></div>
