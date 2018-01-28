@@ -2,18 +2,27 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
-    <title>CSS/HTML Workshop with Convargo</title>
+    <title>Price</title>
   </head>
-  <header>
-    <h1>Price</h1>
-  </header>
   <body>
+
+    <header>
+      <h1>Convargo</h1>
+    </header>
+
+    <h3>Simulation of the price of the shipping</h3>
+    <p>
+      1. Complete the form with information you want to test.<br>
+      2. Compute the result clicking on the button.
+    </p>
+
     <div id="trucker">
       Trucker :
       <input class="name" type="text" placeholder="Trucker name"/>
       <input class="price-by-km" type="number" placeholder="Price by km"/>
       <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
     </div>
+    <br>
     <div id="shipper">
       Shipper :
       <input class="name" type="text" placeholder="Shipper name"/>
@@ -21,7 +30,9 @@
       <input class="volume" type="number" placeholder="Volume in m3"/><br><br>
       <input class="option" type="checkbox" placeholder="Deductible option"/>Deductible Option
     </div>
+
     <button id="compute">Compute</button>
+
     <div id="actors"></div>
     <script src="convargo.js"></script>
     <script src="index.js"></script>
